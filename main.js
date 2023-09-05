@@ -111,8 +111,6 @@ document.getElementById("myLink").onclick = function() {
 	return false;
 }
 
-
-
 function filterSelection(c) {
 	var x, i;
 	x = document.getElementsByClassName("filterDiv");
