@@ -1,0 +1,94 @@
+header, body {
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	background: rgb(26, 26, 29);
+	background-image: url(assets/rain4.svg);
+}
+
+h2, p, a {
+    color: white;
+}
+
+#cover-image {
+    max-width: 150px;
+}
+
+#data-container {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 5px;
+  }
+
+  #item {
+    /*float: left;*/
+    color: #ffffff;
+    /*line-height: 100px;*/
+    text-align: center;
+    /*margin: 0;*/
+    min-width:  150px;
+    min-height:  150px;
+  }
+
+    /* Logo Elements */
+
+  .logPos {
+    margin-top:  20px;
+    margin-bottom: 80px;
+  }
+
+  .logo {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      /*margin-left:  calc(50% - 70px);*/
+      max-width:  150px;
+    	/*margin-left: 120px;*/
+        margin-bottom: -50px;
+	    z-index: 20;
+    }
+
+    .logo2 {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+      font-weight:  600;
+      /*font-size:  1em;*/
+      font-size: 2em;
+      color:  #ffffff;
+      /*max-width:  300px;*/
+      max-width: 500px;
+      margin-top:  40px;
+      margin-bottom:  10px;
+      z-index: 220;
+      text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    }
+
+    .logo3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      font-weight:  400;
+      font-size: 16px;
+      color:  #c4c4c4;
+      /*max-width:  300px;*/
+      max-width: 500px;
+      margin-top:  -10px;
+      margin-bottom:  -40px;
+      z-index: 220;
+      text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    }
+
+.centerLogo {
+    text-align:  center;
+  }

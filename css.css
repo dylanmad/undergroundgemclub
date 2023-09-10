@@ -18,9 +18,7 @@ html, body {
 
 @media screen and (max-width: 720px) {
 
-	.hide-menu {
-		/*visibility: hidden;*/
-	}
+
 
 	.logo {
 	  display: block;
@@ -237,7 +235,7 @@ html, body {
 
 div.scrollmenu {
   position:  relative;
-  z-index = 300;
+  z-index: 300;
   background-color: #000000;
   overflow: auto;
   white-space: nowrap;
