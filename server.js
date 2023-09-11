@@ -1,7 +1,11 @@
 var express = require('express');
+const cors = require('cors'); // Import the cors middleware
 var app = express();
 
-app.get('/', function (req, res) {
+// Use the cors middleware with default options (allows requests from any origin)
+app.use(cors());
+
+app.get('/api/data', function (req, res) {
    
     var sql = require("mssql");
 
@@ -34,11 +38,15 @@ app.get('/', function (req, res) {
             if (err) console.log(err)
 
             // send records as a response
-            res.send(recordset);
+            //res.send(recordset);
+            const data = recordset;
+            res.json(data);
             
         });
     });
 });
+
+
 
 var server = app.listen(5000, function () {
     console.log('Server is running..');
