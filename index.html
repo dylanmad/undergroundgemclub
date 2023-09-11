@@ -1,417 +1,49 @@
 <!DOCTYPE html>
 
-<html>
-
-	<head>
-
-		<meta charset="UTF-8">
-		<title>Underground Gem Club • Underground Hip-Hop Mixtapes</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="The Underground Gem Club features a large selection of hard-to-find hip-hop mixtapes, all in one place.">
-		<script data-ad-client="ca-pub-8544117887014635" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<script type="application/ld+json">
-	    {
-	      "@context": "https://undergroundgem.club",
-	      "@type": "Organization",
-	      "url": "https://undergroundgem.club",
-	      "logo": "https://i.imgur.com/OgviPTW.png"
-	    }
-	    </script>
-	    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8544117887014635"
-     crossorigin="anonymous"></script>
-
-		
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css.css" media="screen"/>
-		<script src="main.js"></script>
-
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e53c30">
-		<meta name="msapplication-TileColor" content="#b91d47">
-		<meta name="theme-color" content="#ffffff">
-
-	</head>
-
-	<header>
-
-		<nav class="navMenu navRight">
-	      <a href="index.html" class="menu-space">The Club</a> <!-- Change href to "/" in deployment -->
-	      <a href="https://discord.gg/5AtUQZnCdq" target="_blank" class="menu-space">Discord</a>
-	      <a href="cratedig.html" class="menu-space">CrateDig</a> <!-- Change href to "createdig" in deployment -->
-	      <a href="#" id="myLink"><img src="https://cdn.iconscout.com/icon/free/png-256/youtube-1868966-1583130.png" title="Streaming Service Toggle" class="sound-icons menu-space" id="yt" onclick='changeImage( "https://cdn2.iconfinder.com/data/icons/minimalism/512/soundcloud.png" );' alt="Press to switch Soundcloud links to Youtube links"> </a>
-	      <div class="dot dotCenter2"></div>
-	    </nav>
-
-
-		<div class="logPos">
-			<img src="https://i.imgur.com/RHe7zjV.gif" class="logo" alt="Logo for the Underground Gem Club - the destination for underground hip-hop mixtapes">
-			<h1 class="logo2 centerLogo hide-menu">UNDERGROUND GEM CLUB</h1>
-			<h3 class="logo3 centerLogo hide-menu"><i>Mixtapes Live Here</i></h1>
-		</div>
-
-	</header>
-
-	<body>
-		
-		<div id="myBtnContainer" class="scrollmenu">
-  		<button class="btn active" onclick="filterSelection('all')"> SHOW ALL</button>
-  		<button class="btn" onclick="filterSelection('1990')"> 1990s</button>
-  		<button class="btn" onclick="filterSelection('2000')"> 2000s</button>
-  		<button class="btn" onclick="filterSelection('2010')"> 2010s</button>
-  		<button class="btn" onclick="filterSelection('cbus')"> CBUS</button>
-  		<button class="btn" onclick="filterSelection('chicago')"> CHICAGO</button>
-  		<button class="btn" onclick="filterSelection('classic')" > CLASSICS</button>
-  		<button class="btn" onclick="filterSelection('hiphop')"> HIP-HOP</button>
-  		<button class="btn" onclick="filterSelection('hw')"> HOMEWORK EDITS</button>
-  		<button class="btn" onclick="filterSelection('losangeles')"> LOS ANGELES</button>
-  		<button class="btn" onclick="filterSelection('new')"> NEW RELEASES</button>
-  		<button class="btn" onclick="filterSelection('newyork')"> NEW YORK</button>
-  		<button class="btn" onclick="filterSelection('of')"> ODD FUTURE</button>
-  		<button class="btn" onclick="filterSelection('rise')"> ON THE RISE</button>
-  		<button class="btn" onclick="filterSelection('pop')"> POP</button>
-  		<button class="btn" onclick="filterSelection('rock')"> ROCK</button>
-  		<button class="btn" onclick="filterSelection('trap')"> TRAP</button>
-		</div>
-
-		<div class="container">
-
-			<div class="filterDiv 1990 hiphop chicago">
-				<a href="https://soundcloud.com/provincelike/sets/kanye-west-beat-tape-circa-sept-1997-remastered?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="97-ye" target="_blank">
-					<img src="https://cdn.shopify.com/s/files/1/0973/7376/files/young-kanye_large.jpg?v=1510929929" title="1997 Unreleased Beat Tape • Kanye West" class="fit-box" alt="1997 Unreleased Beat Tape by Kanye West Cover">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 2010 hiphop hw chicago">
-				<a href="https://youtube.com/playlist?list=PLgQVxrX6-iaKGJxvi-0Cno7FvFvyYwZ_J" id="hw-ye" target="_blank">
-					<img src="https://i.imgur.com/hhnc5sG.jpg" title="Homework Edits • Kanye West" class="fit-box" alt="Homework Edits by Kanye West Cover. Homework Edits are long-form loops of instrumental hip-hop beats. This edit is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop">
-				<a href="https://soundcloud.com/user-569044708/sets/xxxtentacion-revenge-full?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="rev-xxx" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Revenge_Single_Cover.jpg" title="REVENGE • XXXTENTACION" class="fit-box" alt="REVENGE by XXXTENTACION Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop">
-				<a href="https://soundcloud.com/hcoguapo/sets/yrn?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="yrn-migos" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/6/6a/Y.R.N_%28Young_Rich_Niggas%29_Cover.jpg" title="YRN • Migos" class="fit-box" alt="YRN by Migos Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/thestreamlord/sets/da-drought-3-lil-wayne?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="dd3-lilwayne" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/1/19/Da_Drought_3_cover.jpg" title="Da Drought 3 • Lil Wayne" class="fit-box" alt="Da Drought 3 by Lil Wayne Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop classic">
-				<a href="https://soundcloud.com/futureisnow/sets/beast-mode-47?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="bm-future" target="_blank">
-					<img src="https://media.pitchfork.com/photos/5929ac10b1335d7bf1699961/1:1/w_600/4caea212.jpg" title="Beast Mode • Future" class="fit-box" alt="Beast Mode by Future Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop">
-				<a href="https://soundcloud.com/carlo-revelli/sets/run-on-sentences-vol-2-larry-fisherman?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="ros2-mac" target="_blank">
-					<img src="https://i1.sndcdn.com/artworks-000141243379-nsp8zf-t500x500.jpg" title="Run On Sentences Volume Two • Larry Fisherman" class="fit-box" alt="Run On Sentences Volume Two by Larry Fisherman Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop">
-				<a href="https://soundcloud.com/carlo-revelli/sets/run-on-sentences-volume-1-larry-fisherman?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="ros1-mac" target="_blank">
-					<img src="https://i1.sndcdn.com/artworks-000298566207-kku3of-t500x500.jpg" title="Run On Sentences Volume One • Larry Fisherman" class="fit-box" alt="Run On Sentences Volume One by Larry Fisherman Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop">
-				<a href="https://soundcloud.com/larryfisherman/sets/i-love-life-thank-you-2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="llty-mac" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/4/43/Mac_Miller_-_I_Love_Life%2C_Thank_You.jpg" title="I Love Life, Thank You • Mac Miller" class="fit-box" alt="I Love Life, Thank You by Mac Miller Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop trap">
-				<a href="https://soundcloud.com/chiefkeef/sets/back-from-the-dead-3-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="bftd3-keef" target="_blank">
-					<img src="https://i.scdn.co/image/ab67616d0000b273e399065237b9303946096a1e" title="Back From The Dead 3 • Chief Keef" class="fit-box" alt="Back From The Dead 3 by Chief Keef Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop trap">
-				<a href="https://soundcloud.com/chiefkeef/sets/back-from-the-dead-2-2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="bftd2-keef" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/1/11/Chief_Keef_Back_From_The_Dead_2.jpg" title="Back From The Dead 2 • Chief Keef" class="fit-box" alt="Back From The Dead 2 by Chief Keef Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop classic trap">
-				<a href="https://soundcloud.com/chiefkeef/sets/back-from-the-dead?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="bftd-keef" target="_blank">
-					<img src="https://cutewallpaper.org/26/best-luv-mixtape-album-wallpaper/3086424946.jpg" title="Back From The Dead • Chief Keef" class="fit-box" alt="Back From The Dead by Chief Keef Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop classic">
-				<a href="https://soundcloud.com/walefolarin/sets/the-mixtape-about-nothing-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="mad-villain" target="_blank">
-					<img src="https://media.pitchfork.com/photos/5929c458ea9e61561daa811a/1:1/w_600/0bc6101d.jpg" title="Madvillainy • Madvillain" class="fit-box" alt="Madvillainy by Madvillain Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop classic">
-				<a href="https://soundcloud.com/aesop-rock-official/sets/labor-days-2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="labordays-rock" target="_blank">
-					<img src="http://cdn.shopify.com/s/files/1/0274/2121/2720/products/AesopRockLaborDays-_1_1200x1200.png?v=1611254430" title="Labor Days • Aesop Rock" class="fit-box" alt="Labor Days by Aesop Rock Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/deltron-3030/sets/deltron-3030?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="3030-del" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Deltron_3030_%28album_cover%29.jpg" title="Deltron3030 • Deltron3030" class="fit-box" alt="Deltron3030 by Deltron3030 Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/josh-calhoun-509519170/sets/little-brother-the-listening?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="listen-littlebro" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Little_Brother_-_The_Listening.jpg" title="The Listening • Little Brother" class="fit-box" alt="The Listening by Little Brother Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/productomart/sets/fantastic-damage-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="damage-elp" target="_blank">
-					<img src="https://cdn.shopify.com/s/files/1/0658/8461/products/FP1756-1-El-P_Fantastic-Damage-Standard-Reissue_3000_Digi_720x720@2x.jpg?v=1646190194" title="Fantastic Damage • EL-P" class="fit-box" alt="Fantastic Damage by EL-P Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/atmosphere-6/sets/god-loves-ugly-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="ugly-atmos" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/4/40/Atmosphere_God_Loves_Ugly.jpg" title="God Loves Ugly • Atmosphere" class="fit-box" alt="God Loves Ugly by Atmosphere Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/jedimindtricks-music/sets/violent-by-design-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="violent-jedi" target="_blank">
-					<img src="https://images.genius.com/ebba3b618ee97175db0df02b72163dc6.1000x1000x1.jpg" title="Violent By Design • Jedi Mind Tricks" class="fit-box" alt="Violent By Design by Jedi Mind Tricks Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 1990 hiphop">
-				<a href="https://soundcloud.com/hieroglyphics-1/sets/3rd-eye-vision?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="third-hiero" target="_blank">
-					<img src="https://m.media-amazon.com/images/I/713mMGza2AL._SL1000_.jpg" title="3rd Eye Vision • Hieroglyphics" class="fit-box" alt="3rd Eye Vision by Hierolglyphics Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 1990 hiphop">
-				<a href="https://soundcloud.com/mf-doom-official/sets/operation-doomsday-complete?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="operation-mf" target="_blank">
-					<img src="https://lastfm.freetls.fastly.net/i/u/avatar170s/5bfc347edd136f72f2f1eb6a6054de27" title="Operation Doomsday • MF DOOM" class="fit-box" alt="Operation Doomsday by MF DOOM Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop losangeles">
-				<a href="https://soundcloud.com/bluexile/sets/below-the-heavens-in-hell?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="below-blu" target="_blank">
-					<img src="https://media.pitchfork.com/photos/6227ae047dc64ca369d622b3/1:1/w_600/bluexile.jpeg" title="Below The Heavens • Blu & Exile" class="fit-box" alt="Below The Heavens by Blu & Exile Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 1990 hiphop">
-				<a href="https://soundcloud.com/atmosphere-6/sets/overcast-20-year-anniversary?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="over-atmo" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/7/76/Atmosphere_Overcast_Cover.jpg" title="Overcast! • Atmosphere" class="fit-box" alt="Overcast! by Atmosphere Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/cunninlynguists/sets/a-piece-of-strange?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="piece-cunnin" target="_blank">
-					<img src="https://f4.bcbits.com/img/a0170967067_16.jpg" title="A Piece Of Strange • CunninLynguists" class="fit-box" alt="A Piece Of Strange by CunninLynguists Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/leakbros/sets/waterworld-2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="water-leak" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/2/2d/Leakleakleak.jpg" title="Waterworld • Leak Bros" class="fit-box" alt="Waterworld by Leak Bros Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/non-prophets-official/sets/hope-64?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="hope-nonpro" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Hope_%28Non-Prophets%29_%28Front_Cover%29.png/220px-Hope_%28Non-Prophets%29_%28Front_Cover%29.png" title="Hope • Non Prophets" class="fit-box" alt="Hope by Non Prophets Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/brother-ali-official/sets/champion-ep-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="champ-ali" target="_blank">
-					<img src="https://f4.bcbits.com/img/a3539538816_10.jpg" title="Champion EP • Brother Ali" class="fit-box" alt="Champion EP by Brother Ali Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop cbus">
-				<a href="https://soundcloud.com/soul-position/sets/8-000-000-stories-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="8mil-soul" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/5/56/8millionstories.jpg" title="8,000,000 Stories • Soul Position" class="fit-box" alt="8,000,000 by Soul Position Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2000 hiphop">
-				<a href="https://soundcloud.com/walefolarin/sets/the-mixtape-about-nothing-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="nothing-wale" target="_blank">
-					<img src="https://i.scdn.co/image/ab67616d0000b27306ca91875b85dfe045bb65a8" title="The Mixtape About Nothing • WALE" class="fit-box" alt="The Mixtape About Nothing by WALE Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv of 2010">
-				<a href="https://soundcloud.com/everything-frank-ocean/sets/nostalgia-ultra?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="ultra-frank" target="_blank">
-					<img src="https://lastfm.freetls.fastly.net/i/u/ar0/5ae579f8f2d3b2be7440b5889be49236.jpg" title="nostalgia, ULTRA. • Frank Ocean" class="fit-box" alt="nostalgia, ULTRA. by Frank Ocean Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop 2000">
-				<a href="https://soundcloud.com/rapdose2012/sets/royalty?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="no1-wayne" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/8/80/Noceilings.jpg" title="No Ceilings • Lil Wayne" class="fit-box" alt="No Ceilings by Lil Wayne Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop 2010">
-				<a href="https://soundcloud.com/rapdose2012/sets/royalty?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="royalty-gambino" target="_blank">
-					<img src="https://preview.redd.it/r2j65jpyr1i51.png?width=640&crop=smart&auto=webp&s=5f444bd67eb5946208f940d8924d51a414bf115a" title="Royalty • Childish Gambino" class="fit-box" alt="Royalty by Childish Gambino Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop 2010 losangeles classic">
-				<a href="https://soundcloud.com/insideofclouuds/sets/kendrick-lamar-overly?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="overly-kdot" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Kendrick_Lamar_-_Overly_Dedicated.jpg/220px-Kendrick_Lamar_-_Overly_Dedicated.jpg" title="Overly Dedicated • Kendrick Lamar" class="fit-box" alt="Overly Dedicated by Kendrick Lamar Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop 2010 classic">
-				<a href="https://soundcloud.com/fknnobody/sets/live-love-asap?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="love-asap" target="_blank">
-					<img src="https://i.discogs.com/Mm1a9FB-EtDX7lBJy19NVj_8x9yl6sWcJIvXTZLad2g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1NTA2/OTQtMTM5NjMxNzgw/MS0xMTE0LmpwZWc.jpeg" title="Live Love A$AP • A$AP Rocky" class="fit-box" alt="Live Love A$AP by A$AP Rocky Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop 2010">
-				<a href="https://soundcloud.com/dreamsandnightmares/sets/meek-mill-dreamchasers-2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="dream2-meek" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Mixtape_cover_of_Meek_Mill%27s_Dreamchasers_2.png" title="Dreamchasers 2 • Meek Mill" class="fit-box" alt="Dreamchasers 2 by Meek Mill Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv pop classic 2010">
-				<a href="https://soundcloud.com/theweeknd/sets/house-of-balloons-3?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="house-week" target="_blank">
-					<img src="https://64.media.tumblr.com/4b8fc1927d9251ab793ef5f68b16b1f6/tumblr_on5z8fVW8N1w02fy4o1_500.gifv" title="House Of Balloons • The Weeknd" class="fit-box" alt="House Of Balloons by The Weeknd Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop 2010">
-				<a href="https://soundcloud.com/larryfisherman/sets/macadelic-remastered-edition?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="delic-mac" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Macadelic_mixtape_cover.jpg" title="Macadelic • Mac Miller" class="fit-box" alt="Macadelic by Mac Miller Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop hw">
-				<a href="https://youtube.com/playlist?list=PLgQVxrX6-iaIfnbbOzDH7J6t-MGwr1ucQ" id="hw-mfdoom" target="_blank">
-					<img src="https://i.imgur.com/L2tsDhD.jpg" title="Homework Edits • MF DOOM" class="fit-box" alt="Homework Edits by MF DOOM Cover. Homework Edits are long-form loops of instrumental hip-hop beats. This edit is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv unrel hiphop trap">
-				<a href="https://soundcloud.com/dreamvillerecords/sets/d-day-a-gangsta-grillz-mixtape?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" id="dday-dreamville" target="_blank">
-					<img src="https://static.stereogum.com/uploads/2022/04/Dreamville-D-Day-1648822425.jpeg" title="D-Day: A Gangsta Grillz Mixtape • Dreamville" class="fit-box" alt="D-Day: A Gangsta Grillz Mixtape by Dreamville Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv unrel hiphop">
-				<a href="https://soundcloud.com/joshua-calhoun-299698480/sets/mf-doom-the-missing-notebook" id="tmnr-mfdoom" target="_blank">
-					<img src="https://images.genius.com/d407bc14bcb2a69bf0289b39c46777ff.1000x1000x1.jpg" title="The Missing Notebook Rhymes • MF DOOM" class="fit-box" alt="The Missing Notebook Rhymes by MF DOOM Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 hiphop chicago">
-				<a href="https://soundcloud.com/chancetherapper/sets/chance-the-rapper-10day" id="10d-chancetherapper" target="_blank">
-					<img src="https://i.pinimg.com/originals/e5/af/6e/e5af6e2f6d1724e31043f85ab4b9c892.gif" title="10Day • Chance The Rapper" class="fit-box" alt="10Day by Chance The Rapper Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop hw">
-				<a href="https://youtube.com/playlist?list=PLgQVxrX6-iaK1YRGC1b8MSfO86WoWk8wo" id="hw-jdilla" target="_blank">
-					<img src="https://i.imgur.com/68xcxlZ.jpg" title="Homework Edits • J Dilla" class="fit-box" alt="Homework Edits by J Dilla Cover. Homework Edits are long-form loops of instrumental hip-hop beats. This edit is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 classic hiphop chicago">
-				<a href="https://soundcloud.com/chancetherapper/sets/chance-the-rapper-acid-rap" id="ar-chancetherapper" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Chance_the_rapper_acid_rap.jpg" title="Acid Rap • Chance The Rapper" class="fit-box" alt="Acid Rap by Chance The Rapper Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv 2010 of">
-				<a href="https://soundcloud.com/lisa-jansson-360015449/sets/endless-frank-ocean" id="e-frankocean" target="_blank">
-					<img src="https://media4.giphy.com/media/LbF1GMKJmUtx8sN4zw/giphy.gif?cid=790b7611fce57c5ca92cdebf5306cf058042d82ea1c9a36e&rid=giphy.gif&ct=g" title="Endless • Frank Ocean" class="fit-box" alt="Endless by Frank Ocean Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv hiphop trap new">
-				<a href="https://soundcloud.com/doctordestruction/sets/planetory-destruction" id="pd-docd" target="_blank">
-					<img src="https://i1.sndcdn.com/artworks-OqnHs1t6kcTcOKfZ-5fBcXQ-t500x500.jpg" title="PLANETORY DESTRUCTION • Doc D" class="fit-box" alt="PLANETORY DESTRUCTION by Doc D Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv of hiphop 2010 losangeles">
-				<a href="https://soundcloud.com/earlxsweatshirtmusic/sets/earl-15" id="e-earlsweatshirt" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Earlcover.png" title="Earl • Earl Sweatshirt" class="fit-box" alt="Earl by Earl Sweatshirt Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv of classic 2010 hiphop">
-				<a href="https://soundcloud.com/gnorilla/sets/tyler-the-creator-bastard" id="b-tylerthecreator" target="_blank">
-					<img src="https://64.media.tumblr.com/6009addb3172414a18850ec9d5b6a200/tumblr_mlijkgcVPl1s94iluo1_500.gifv" title="Bastard • Tyler, The Creator" class="fit-box" alt="Bastard by Tyler, The Creator Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv classic 2010 hiphop">
-				<a href="https://soundcloud.com/rickrossrichforever/sets/rick-ross-rich-forever-mixtape" id="rf-rickross" target="_blank">
-					<img src="https://media.pitchfork.com/photos/5929b2eb5e6ef95969322393/1:1/w_320/78d51a6f.jpeg" title="Rich Forever • Rick Ross" class="fit-box" alt="Rich Forever by Rick Ross Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv classic 2010 trap hiphop">
-				<a href="https://soundcloud.com/travisscott-2/sets/days-before-rodeo" id="dbr-travisscott" target="_blank">
-					<img src="https://i.redd.it/wxowfjpmf7t31.jpg" title="Days Before Rodeo • Travis Scott" class="fit-box" alt="Days Before Rodeo by Travis Scott Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv classic 2010 hiphop">
-				<a href="https://soundcloud.com/daelnoic/sets/a-kid-named-cudi"  id="aknc-kidcudi" target="_blank">
-					<img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Akidnamedcudi.jpg" title="A Kid Named Cudi • Kid Cudi" class="fit-box" alt="A Kid Named Cudi by Kid Cudi Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv classic 2010 hiphop">
-				<a href="https://soundcloud.com/tfrye/sets/friday-night-lights"  id="fnl-jcole" target="_blank">
-					<img src="https://images-na.ssl-images-amazon.com/images/I/51LMdp1N8bL._SL1000_.jpg" title="Friday Night Lights • J. Cole" class="fit-box" alt="Friday Night Lights by J. Cole Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-			<div class="filterDiv classic 2010 hiphop">
-				<a href="https://soundcloud.com/proeraradio/sets/joey-bada-1999"  id="1999-joeybadass" target="_blank">
-					<img src="https://i.pinimg.com/originals/d9/a8/ab/d9a8abc45a2bc39a0ab82a11e260d587.gif" title="1999 • Joey Bada$$" class="fit-box" alt="1999 by Joey Bada$$ Album Cover. This mixtape is provided by the Underground Gem Club, the best place for hip-hop, trap, boom-bap, and unreleased mixtapes.">
-				</a>
-			</div>
-
-        </div>
-
-       <script>	filterSelection("all");</script>
-
-	</body>
-
-	<footer>
-
-		<nav class="navMenu navFoot">
-	      <a href="index.html" class="menu-space">The Club</a> <!-- Change href to "/" in deployment -->
-	      <a href="https://discord.gg/5AtUQZnCdq" target="_blank" class="menu-space">Discord</a>
-	      <a href="cratedig.html" class="menu-space">CrateDig</a> <!-- Change href to "createdig" in deployment -->
-	      <div class="dot dotCenter"></div>
-	    </nav>
-
-		<h1><p class="copyright">The Underground Gem Club is the destination for hard-to-find underground hip-hop mixtapes, all in one place.<br>©2023 Dylan Madhani. All rights reserved. • <a style="text-decoration: none; color: inherit" href="disclaimer" target="_blank">Disclaimer</a><br><br></p></h1>
-
-
-		<button onclick="topFunction()" class="myBtn" title="Go to top">▲</button>
-
-	</footer>
+<head>
+    <meta charset="UTF-8">
+    <title>Underground Gem Club • Underground Hip-Hop Mixtapes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Underground Gem Club features a large selection of hard-to-find hip-hop mixtapes, all in one place.">
+    <script src="test.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="test.css" media="screen"/>
+</head>
+
+<header>
+
+    <div class="navFixed">
+    <nav class="navMenu navHead">
+        <a href="index.html" class="menu-space">The Club</a> <!-- Change href to "/" in deployment -->
+        <a href="https://discord.gg/5AtUQZnCdq" target="_blank" class="menu-space">Discord</a>
+        
+      </nav>
+    </div>
+
+    <div class="logPos">
+        <img src="/assets/gemlogo.gif" class="logo" alt="Logo for the Underground Gem Club - the destination for underground hip-hop mixtapes">
+        <h1 class="logo2 centerLogo hide-menu">UNDERGROUND GEM CLUB</h1>
+        <h3 class="logo3 centerLogo hide-menu"><i>Mixtapes Live Here</i></h1>
+    </div>
+
+</header>
+
+
+<body>
+
+     <!-- input tag -->
+     <input id="searchbar" onkeyup="search_tapes()" type="text"
+     name="search" placeholder="Search Mixtapes")>
+
+    <div id="data-container"></div>
+    
+</body>
+
+<footer>
+
+    <h1><p class="copyright">The Underground Gem Club is the destination for hard-to-find underground hip-hop mixtapes, all in one place.<br>©2023 Dylan Madhani. All rights reserved. • <a style="text-decoration: none; color: inherit" href="disclaimer.html" target="_blank">Disclaimer</a><br><br></p></h1>
+	<button onclick="topFunction()" class="myBtn" title="Go to top">▲</button>
+
+</footer>
 
 </html>
-
-
