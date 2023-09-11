@@ -190,8 +190,8 @@ h2, p, a {
 }
 
 #searchbar{
-  /*margin-left: 35%;*/
-  margin-left: 25%;
+  margin: 0 auto;
+  display: block;
   padding:15px;
   border-radius: 10px;
   margin-bottom: 20px;
