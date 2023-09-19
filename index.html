@@ -8,17 +8,29 @@
     <script src="test.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="test.css" media="screen"/>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#de0000">
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="UGC">
+    <meta name="application-name" content="UGC">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
 </head>
 
 <header>
 
-    <div class="navFixed">
     <nav class="navMenu navHead">
         <a href="index.html" class="menu-space">The Club</a> <!-- Change href to "/" in deployment -->
         <a href="https://discord.gg/5AtUQZnCdq" target="_blank" class="menu-space">Discord</a>
-        
-      </nav>
-    </div>
+    </nav>
 
     <div class="logPos">
         <img src="/assets/gemlogo.gif" class="logo" alt="Logo for the Underground Gem Club - the destination for underground hip-hop mixtapes">
@@ -33,7 +45,22 @@
 
      <!-- input tag -->
      <input id="searchbar" onkeyup="search_tapes()" type="text"
-     name="search" placeholder="Search Mixtapes")>
+     name="search" placeholder="Search Mixtapes">
+
+
+     <form class="centerAttribute">
+        <p class="searchAttribute">Search by Attribute:</p>
+        <input type="radio" id="radio-color" name="search_attributes" value="Title" onClick="updateSearch('Title')">
+        <label for="title" class="searchAttribute">Title</label>
+        <input type="radio" id="radio-color" name="search_attributes" value="Artist" onClick="updateSearch('Artist')">
+        <label for="artist" class="searchAttribute">Artist</label>
+        <input type="radio" id="radio-color" name="search_attributes" value="Date" onClick="updateSearch('Date')">
+        <label for="date" class="searchAttribute">Date</label>
+
+      </form>
+
+
+
 
     <div id="data-container"></div>
     
@@ -42,7 +69,7 @@
 <footer>
 
     <h1><p class="copyright">The Underground Gem Club is the destination for hard-to-find underground hip-hop mixtapes, all in one place.<br>©2023 Dylan Madhani. All rights reserved. • <a style="text-decoration: none; color: inherit" href="disclaimer.html" target="_blank">Disclaimer</a><br><br></p></h1>
-	<button onclick="topFunction()" class="myBtn" title="Go to top">▲</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
 
 </footer>
 

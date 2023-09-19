@@ -22,13 +22,15 @@ const baseUrl = 'http://localhost:5000';
 
         const titleElement = document.createElement('h2');
         titleElement.textContent = item.title;
-        titleElement.className = 'tape';
+        titleElement.className = 'title';
 
         const artistElement = document.createElement('p');
         artistElement.textContent = `Artist: ${item.artist}`;
+        artistElement.className = 'artist';
 
         const dateCreatedElement = document.createElement('p');
         dateCreatedElement.textContent = `Date Created: ${item.datecreated}`;
+        dateCreatedElement.className = 'date';
 
         const platformContainer = document.createElement('div');
         platformContainer.id = 'center-links';
@@ -85,20 +87,16 @@ const baseUrl = 'http://localhost:5000';
         console.error('Error fetching data: ', error);
       });
 
-//Get the button
-var mybutton = document.getElementById("myBtn");
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-	 document.body.scrollTop = 0;
-	 document.documentElement.scrollTop = 0;
-}
+// Default Search Value
+let x = document.getElementsByClassName('title');
 
-// JavaScript code
+// Search Bar Functionality
 function search_tapes() {
   let input = document.getElementById('searchbar').value
   input=input.toLowerCase();
-  let x = document.getElementsByClassName('tape');
+
+  //let x = document.getElementsByClassName('title');
   console.log(x);
   for (i = 0; i < x.length; i++) { 
       if (!x[i].innerHTML.toLowerCase().includes(input)) {
@@ -108,4 +106,30 @@ function search_tapes() {
     }
 
   }
+}
+
+// Updates search criteria when radio button pressed
+function updateSearch(searchAttribute) {
+  x = document.getElementsByClassName(searchAttribute.toLowerCase());
+  document.getElementById('searchbar').placeholder = "Search Mixtapes by " + searchAttribute;
+}
+
+// Scroll To Top Button
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+  //document.body.scrollTop = 0; // For Safari
+  //document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
