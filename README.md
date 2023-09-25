@@ -9,8 +9,8 @@ The Underground Gem Club is a pet project of mine that I dreamt up in my dorm ro
 The site is populated with "mixtape cards" which consists of the cover, title, artist, and the mixtape's release date. The card also displays the icons of music services that host the mixtape and links to them for each mixtape. Notice how the amount of services vary from tape-to-tape, and how some mixtapes don't have any services. That is the unfortunate nature of mixtapes -- they are not universally accessible -- and is the reason I created the site in the first place.
 ![Anatomy of Mixtape Card](https://i.imgur.com/P7TypxJ.png)
 ## Search Bar
-The Site also features a search bar that can be used to find specific mixtapes.
-![Search Bar](https://i.imgur.com/FPqqfxB.png)
+The site also features a search bar that can be used to find specific mixtapes. Mixtapes can be searched by title, artist, or date created.
+![Search Bar](https://i.imgur.com/vnI5o83.png)
 ## Discord Server
 I also created a Discord server so that I can foster a community of underground hip-hop enthusiasts. Just like it is difficult to find underground mixtapes, it can be as or even more difficult to find a community that is passionate about them, so I figured that the Underground Gem Club could be a one-stop-shop for not only finding mixtapes but discussing them, too.
 
@@ -25,7 +25,7 @@ I access the database using NodeJS/Express in the server.js file where I also co
 In true Agile fashion, there are many features I would like to implement, but first I focused on the essentials. Below is a backlog of features, in no particular order, that I intend to implement and deploy in the near future:
 ## Sorting: 
 The ability to sort mixtapes alphabetically, chronologically, by services, and by other criteria.
-## Search Filters: 
+## ~~Search Filters:~~ 
 Expand search capabilities to allow for searching by title, artist, and other criteria.
 ## Blog Section: 
 A new page on the UGC dedicated to stories about hip-hop, mixtapes, and other related interests, curated by the community.
