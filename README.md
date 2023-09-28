@@ -6,18 +6,23 @@ The Underground Gem Club is a pet project of mine that I dreamt up in my dorm ro
 
 # Features
 ## Mixtape Card
-The site is populated with "mixtape cards" which consists of the cover, title, artist, and the mixtape's release date. The card also displays the icons of music services that host the mixtape and links to them for each mixtape. Notice how the amount of services vary from tape-to-tape, and how some mixtapes don't have any services. That is the unfortunate nature of mixtapes -- they are not universally accessible -- and is the reason I created the site in the first place.
-![Anatomy of Mixtape Card](https://i.imgur.com/P7TypxJ.png)
+The site is populated with "mixtape cards" which consists of the cover, title, artist, and the mixtape's release date. The card also displays the icons of music services that host the mixtape and links to them for each mixtape. 
+<img src="https://i.imgur.com/P7TypxJ.png" alt="Anatomy of Mixtape Card" width="800"/>
+
 ## Search Bar
 The site also features a search bar that can be used to find specific mixtapes. Mixtapes can be searched by title, artist, or date created.
-![Search Bar](https://i.imgur.com/vnI5o83.png)
+<p align="center">
+<img src="https://i.imgur.com/vnI5o83.png" alt="Search Bar" width="800"/>
+</p>
+
 ## Discord Server
 I also created a Discord server so that I can foster a community of underground hip-hop enthusiasts. Just like it is difficult to find underground mixtapes, it can be as or even more difficult to find a community that is passionate about them, so I figured that the Underground Gem Club could be a one-stop-shop for not only finding mixtapes but discussing them, too.
 
 # Implementation
 I used Microsoft SQL Server Management Studio to create and manage the database for this project. This way, during development, I can add records and update the page without refreshing it as the database is converted to JSON format and then manipulated from there to populate the page. This is what the database looks like from the management studio:
-
-![Database Snapshot](https://i.imgur.com/KxmL3y2.png)
+<p align="center">
+<img src="https://i.imgur.com/KxmL3y2.png" alt="Database Snapshot" width="800"/>
+</p>
 
 I access the database using NodeJS/Express in the server.js file where I also convert the format to JSON. When I deploy the app, I save the current database directly as a JSON file and store it in the root directory of my repository. This way, I do not have to worry about connecting a server to my site in production when it is not neccessary (if you want to see how I connect another site to a server, check out my sound-board project).
 
