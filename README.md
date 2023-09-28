@@ -1,5 +1,5 @@
 # UNDERGROUND GEM CLUB: *Mixtapes Live Here*
-### Deployed site is hosted at https://undergroundgem.club/
+### Deployed site is hosted at https://dylanmad.github.io/undergroundgemclub/
 
 # About
 The Underground Gem Club is a pet project of mine that I dreamt up in my dorm room in 2022. I'm an avid fan of 90s hip-hop -- A Tribe Called Quest, Slum Village, Nas -- and I'm always trying to discover old mixtapes released by some of my favorite artists during that time. A mixtape is a body of work that an artist makes and distributes for free, usually due to sample clearence issues as sampling is an integral part of hip-hop and many smaller, independent artists do not have the influence to clear them. The problem: since mixtapes started on cassette tapes and CDs, and are not cleared for release on streaming services, it can be hard to find them even when you know what to look for. The solution: The Underground Gem Club.
