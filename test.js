@@ -16,7 +16,7 @@
 
         // Create and populate HTML elements with data
         const imageElement = document.createElement('img');
-        imageElement.src = "/assets/covers/" + item.imagelink;
+        imageElement.src = "assets/covers/" + item.imagelink;
         imageElement.id = 'cover-image';
         imageElement.alt = item.alt;
 
@@ -41,7 +41,7 @@
           const youtubeLinkElement = document.createElement('img');
           youtubeLinkElement.id = 'link-logo';
           youtubeLinkElement.class = 'yt-link';
-          youtubeLinkElement.src = "/assets/youtubemusic-logo.png";
+          youtubeLinkElement.src = "assets/youtubemusic-logo.png";
           linkContainer.appendChild(youtubeLinkElement);
           platformContainer.appendChild(linkContainer);
         }
@@ -51,7 +51,7 @@
           const soundcloudLinkElement = document.createElement('img');
           soundcloudLinkElement.id = 'link-logo';
           soundcloudLinkElement.class = 'sc-link';
-          soundcloudLinkElement.src = "/assets/soundcloud-logo.png";
+          soundcloudLinkElement.src = "assets/soundcloud-logo.png";
           linkContainer2.appendChild(soundcloudLinkElement);
           platformContainer.appendChild(linkContainer2);
         }
@@ -61,7 +61,7 @@
           const applemusicLinkElement = document.createElement('img');
           applemusicLinkElement.id = 'link-logo';
           applemusicLinkElement.class = 'apple-link';
-          applemusicLinkElement.src = "/assets/applemusic-logo.png";
+          applemusicLinkElement.src = "assets/applemusic-logo.png";
           linkContainer3.appendChild(applemusicLinkElement);
           platformContainer.appendChild(linkContainer3);
         }
@@ -71,7 +71,7 @@
           const spotifyLinkElement = document.createElement('img');
           spotifyLinkElement.id = 'link-logo';
           spotifyLinkElement.class = 'spotify-link';
-          spotifyLinkElement.src = "/assets/spotify-logo.png";
+          spotifyLinkElement.src = "assets/spotify-logo.png";
           linkContainer4.appendChild(spotifyLinkElement);
           platformContainer.appendChild(linkContainer4);
         }
