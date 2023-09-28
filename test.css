@@ -8,46 +8,21 @@ body {
   margin: auto;
 }
 
-/*body:after {
-  animation: grain 12s steps(10) infinite;
-  background-image: url("/assets/images/vhs1.png");
-  content: "";
-  height: 300%;
-  left: -50%;
-  opacity: 0.1;
-  position: fixed;
-  top: -100%;
-  width: 300%;
-  z-index: -50;
-  filter: blur(812px);
-  -webkit-filter: blur(8px);
-}
-
-@keyframes grain {
-  0%, 100% { transform:translate(0, 0) }
-  10% { transform:translate(-5%, -10%) }
-  20% { transform:translate(-15%, 5%) }
-  30% { transform:translate(7%, -25%) }
-  40% { transform:translate(-5%, 25%) }
-  50% { transform:translate(-15%, 10%) }
-  60% { transform:translate(15%, 0%) }
-  70% { transform:translate(0%, 15%) }
-  80% { transform:translate(3%, 35%) }
-  90% { transform:translate(-10%, 10%) }
-}*/
-
 h2, p, a {
     color: white;
 }
 
 @media only screen and (max-width: 480px) {
+
   #data-container {
     padding-left: 5% !important;
     padding-right: 5% !important;
   }
+
   .logo2 {
     font-size: 1.65em !important;
   }
+
 }
 
 .searchAttribute {
@@ -70,20 +45,20 @@ h2, p, a {
 }
 
 #data-container {
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 5px;
-    margin: auto;
-    max-width: 1500px;
-    padding-left: 12%;
-    padding-right: 12%;
-  }
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 5px;
+  margin: auto;
+  max-width: 1500px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
 
-  #data-container h2, p, img {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
+#data-container h2, p, img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 #item {
   display: flex;
@@ -119,43 +94,43 @@ h2, p, a {
     z-index: 20;
   }
 
-  .logo2 {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -20px;
-    font-weight:  600;
-    font-size: 2em;
-    color:  #ffffff;
-    max-width: 500px;
-    z-index: 220;
-    text-shadow:
-  -1px -1px 0 #000,  
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-    1px 1px 0 #000;
-  }
-
-  .logo3 {
+.logo2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
-    font-weight:  400;
-    font-size: 16px;
-    color:  #c4c4c4;
-    max-width: 500px;
-    z-index: 220;
-    text-shadow:
-  -1px -1px 0 #000,  
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-    1px 1px 0 #000;
-  }
+  font-weight:  600;
+  font-size: 2em;
+  color:  #ffffff;
+  max-width: 500px;
+  z-index: 220;
+  text-shadow:
+-1px -1px 0 #000,  
+1px -1px 0 #000,
+-1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.logo3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  font-weight:  400;
+  font-size: 16px;
+  color:  #c4c4c4;
+  max-width: 500px;
+  z-index: 220;
+  text-shadow:
+-1px -1px 0 #000,  
+1px -1px 0 #000,
+-1px 1px 0 #000,
+  1px 1px 0 #000;
+}
 
 .centerLogo {
-    text-align:  center;
-  }
+  text-align:  center;
+}
 
 
 #myBtn {
@@ -227,7 +202,6 @@ h2, p, a {
 #link-logo:hover {
   opacity: 0.8;
 }
-
 
 #searchbar{
   margin: 0 auto;

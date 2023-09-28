@@ -1,5 +1,5 @@
-const baseUrl = 'http://localhost:5000';
-    fetch(`${baseUrl}/api/data`)
+//const baseUrl = 'http://localhost:5000';
+    fetch(`/data.json`)
       .then((response) => response.json())
       .then((data) => {
         // Process and populate the table with the data
