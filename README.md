@@ -1,4 +1,4 @@
-# UNDERGROUND GEM CLUB: *Mixtapes Live Here*
+# Underground Gem Club
 ### Deployed site is hosted at https://dylanmad.github.io/undergroundgemclub/
 
 # About
@@ -27,7 +27,7 @@ I used Microsoft SQL Server Management Studio to create and manage the database 
 I access the database using NodeJS/Express in the server.js file where I also convert the format to JSON. When I deploy the app, I save the current database directly as a JSON file and store it in the root directory of my repository. This way, I do not have to worry about connecting a server to my site in production when it is not neccessary (if you want to see how I connect another site to a server, check out my sound-board project).
 
 # Backlog
-In true Agile fashion, there are many features I would like to implement, but first I focused on the essentials. Below is a backlog of features, in no particular order, that I intend to implement and deploy in the near future:
+Below is a backlog of features, in no particular order, that I intend to implement and deploy in the near future:
 ## Sorting: 
 The ability to sort mixtapes alphabetically, chronologically, by services, and by other criteria.
 ## ~~Search Filters:~~ 
@@ -38,5 +38,4 @@ A new page on the UGC dedicated to stories about hip-hop, mixtapes, and other re
 A page that shows the history of the mixtape and hip-hop, and celebrates each era that contributed to the genre.
 
 # Conclusion
-In closing, I want to thank you for checking out my project, and hope that you become a part of the community if you are interested in underground mixtapes. Also, stay tuned for some very interesting project updates coming soon, and feel free to check out my other projects. 
-# Welcome to the Underground Gem Club!
+In closing, I want to thank you for checking out my project, and hope that you become a part of the community if you are interested in underground mixtapes. 
